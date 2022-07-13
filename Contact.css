@@ -53,3 +53,75 @@ body {
         justify-content: center;
     }
 }
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.formcontact {
+    width: 600px;
+	height: 700px;
+    display: flex;
+    margin: auto;
+    margin-top: 7   0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 13px 37px #000;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.forminput {
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 15px; 
+}
+
+.formcomment {
+	height: 250px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.formsubmit {
+    margin-top: 30px;
+    padding: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition-duration: 3s;
+    width: 500px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.formsubmit:hover {
+	transform: scale(1.1);
+	background: white;
+	color: black;
+	border: 1px solid #556980;
+}
+
+@media (max-width: 799px) {
+    .formcontact {
+        width: 300px;
+        height: 600px;
+    }
+    .formcontact input {
+        width: 250px;
+        margin-left: 25px;   
+    }
+    .formcomment {
+        height: 200px;
+    }
+    h2 {
+        font-size: 2rem;
+        
+    }
+}
