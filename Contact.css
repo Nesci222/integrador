@@ -68,7 +68,7 @@ h2 {
     justify-content: center;
     align-items: center;
     box-shadow: 7px 13px 37px #000;
-    background-color: black;
+    background-color: rgb(100, 190, 190);
     border-radius: 15px;
 }
 
@@ -79,6 +79,7 @@ h2 {
     border-radius: 5px;
     margin-left: 50px;
     margin-top: 15px; 
+    border: 1px solid white;
 }
 
 .formcomment {
@@ -88,6 +89,7 @@ h2 {
     border-radius: 5px;
     margin-left: 50px;
     margin-top: 15px;
+    border: 1px solid white;
 }
 
 .formsubmit {
@@ -99,13 +101,13 @@ h2 {
     width: 500px;
     margin-left: 50px;
     font-size: 1.2rem;
+    border: 1px solid white;
 }
 
 .formsubmit:hover {
 	transform: scale(1.1);
 	background: white;
 	color: black;
-	border: 1px solid #556980;
 }
 
 @media (max-width: 799px) {
