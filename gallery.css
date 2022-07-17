@@ -180,7 +180,7 @@ body {
 footer {
     display: flex;
     position: absolute;
-    top: 1400px;
+    top: 950px;
     width: 99%;
     justify-content: center;
     background-color: rgb(100, 190, 190);
