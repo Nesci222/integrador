@@ -49,8 +49,16 @@ body {
         position: relative;
         flex-direction: row;
         width: 100%;
-        height: 350px;
+        height: 200px;
         justify-content: center;
+    }
+    .navbar ul {
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex: row;
+        width: 100%;
+        display: flex;
     }
 }
 
@@ -58,6 +66,9 @@ h2 {
     font-size: 3rem;
     text-align: center;
 }
+
+
+/* aca empieza el contenedor*/
 
 .formcontact {
     width: 600px;
@@ -112,11 +123,11 @@ h2 {
 
 @media (max-width: 799px) {
     .formcontact {
-        width: 300px;
+        width: 330px;
         height: 600px;
     }
     .formcontact input {
-        width: 250px;
+        width: 280px;
         margin-left: 25px;   
     }
     .formcomment {
@@ -125,5 +136,46 @@ h2 {
     h2 {
         font-size: 2rem;
         
+    }
+}
+
+/* aca empieza el footer */
+
+footer {
+    display: flex;
+    position: absolute;
+    top: 1400px;
+    width: 99%;
+    justify-content: center;
+    background-color: rgb(100, 190, 190);
+    clip-path: polygon(0 13%, 51% 13%, 67% 0%, 81% 13%, 100% 6%, 100% 100%, 0 100%, 0 31%);
+}
+
+footer h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    footer {
+        top: 1080px;
+        width: 98%;
+        position: absolute;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 799px) {
+    footer {
+        top: 950px; 
+        width: 98%;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1699px) {
+    footer {
+        top: 950px;
+        width: 99%;
     }
 }
