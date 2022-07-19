@@ -216,7 +216,7 @@ footer h3 {
 @media (max-width: 600px) {
     footer {
         top: 1080px;
-        width: 98%;
+        width: 96vw;
         position: absolute;
     }
 }
